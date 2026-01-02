@@ -19,7 +19,17 @@ Confirmed whether the user interacted with the email or clicked the link
 
 Checked if similar emails were delivered to other users
 ## Identity Investigation
+Reviewed recent sign-in activity for the affected user account following receipt of the phishing email
 
+Checked for sign-ins originating from unfamiliar locations, IP addresses, or devices
+
+Looked for patterns of failed sign-in attempts followed by a successful authentication
+
+Reviewed the authentication methods used during sign-ins, including whether MFA was prompted or bypassed
+
+Checked for any high-risk or flagged sign-in events during the relevant timeframe
+
+Verified whether any account changes or unusual activity occurred after the suspected phishing interaction
 ## Findings & Correlation
 
 ## Response & Decision
