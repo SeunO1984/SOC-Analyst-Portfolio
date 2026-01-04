@@ -18,10 +18,14 @@ The identity investigation focused on reviewing authentication behaviour in more
 MFA challenge outcomes were reviewed to confirm whether prompts were approved, denied, or left unanswered, and to identify whether any successful sign-ins followed the repeated authentication attempts. The investigation also considered whether the authentication activity aligned with the user’s normal sign-in patterns or indicated abnormal behaviour.
 
 ## Findings & Correlation
+Review of the authentication activity showed repeated MFA prompts without evidence of successful unauthorized access. Sign-in attempts originated from expected locations and devices associated with the user account, and there were no unfamiliar IP addresses or authentication methods observed.
 
+No sign-in events indicated elevated risk, and there were no account changes or follow-on activity suggesting credential compromise. The authentication behaviour was consistent with user-initiated sign-in attempts rather than an external MFA fatigue attack.
 
 ## Analyst Decision Points
+Several response options were considered during the investigation. These included forcing a password reset, resetting MFA methods, or escalating the case for further review. Each option was weighed against the available evidence and the potential impact on the user.
 
+Given the absence of successful unauthorized sign-ins, unfamiliar locations, or elevated risk indicators, disruptive actions were not taken. The decision was made to continue monitoring the account rather than apply immediate remediation.
 
 ## Response & Decision
 
