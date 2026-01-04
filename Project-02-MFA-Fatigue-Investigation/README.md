@@ -33,7 +33,7 @@ No immediate remediation actions were taken, as the investigation did not identi
 Incident Severity: Low
 
 ## Incident Closure
-
+The incident was closed after confirming that the authentication activity did not indicate MFA fatigue or unauthorized access. No further suspicious behaviour was observed following the initial review, and the account remained stable during the monitoring period.
 
 ## Notes / Lessons Learned
 
