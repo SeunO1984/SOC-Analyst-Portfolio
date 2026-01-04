@@ -7,7 +7,7 @@ A phishing email was flagged for review after being identified as suspicious. Th
 
 
 ## Alert / Detection Trigger
-
+The investigation was triggered after an email security alert flagged a message as potentially malicious. Indicators such as the sender details and embedded content suggested phishing activity, prompting further review to confirm the nature of the email and assess its impact.
 
 ## Email Analysis
 
