@@ -28,7 +28,9 @@ Several response options were considered during the investigation. These include
 Given the absence of successful unauthorized sign-ins, unfamiliar locations, or elevated risk indicators, disruptive actions were not taken. The decision was made to continue monitoring the account rather than apply immediate remediation.
 
 ## Response & Decision
+No immediate remediation actions were taken, as the investigation did not identify evidence of account compromise or MFA abuse. The user account was monitored for further abnormal authentication activity, and guidance was provided to report any unexpected MFA prompts promptly.
 
+Incident Severity: Low
 
 ## Incident Closure
 
