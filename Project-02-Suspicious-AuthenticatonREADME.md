@@ -3,9 +3,6 @@
 ## Scenario Overview
 Multiple authentication attempts were observed for a user account within a short period of time, prompting a review for potential unauthorized access or abnormal sign-in behaviour.
 
-## Environment & Evidence Context
-
-
 ## Alert / Detection Trigger
 The review was initiated after a pattern of repeated authentication attempts was observed for a single user account within a short timeframe. The frequency and timing of the sign-in activity were inconsistent with typical user behaviour, prompting further investigation to assess the risk of unauthorized access or abnormal authentication activity.
 
@@ -37,9 +34,6 @@ The incident was closed after confirming that the authentication activity did no
 
 ## Notes / Lessons Learned
 Repeated MFA prompts should be reviewed in context. When no compromise indicators are present, monitoring may be sufficient.
-
-## Evidence Collected (Screenshots)
-
 
 ## What Would Have Changed the Outcome
 The response would have escalated if there had been evidence of successful sign-ins from unfamiliar locations or devices, repeated MFA approvals following failed attempts, elevated sign-in risk indicators, or account changes occurring after the authentication activity.
